@@ -1,15 +1,15 @@
-.container {
+ .container {
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    max-width: 340px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
 }
 .display {
     margin-top: 25px;
-    height: 100px;
-    width: 450px;
+    height: 80px;
+    width: 310px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -18,48 +18,71 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 8%;
-    font-size: 5.0rem;
+    font-size: 4.0rem;
   }
 
   /*My css */
 
-  .calculator{
-    width: 100%;
-    max-width: 550px;
-    height: 450px;
-    padding:1rem;
+  .logo{
+    width:auto;
+    height:30px;
+    margin: 20px 0 10px 20px;
+}
+
+  .buttons{
+    
     display: flex;
   }
 
   button{
-    border-radius:50%;
-      width:85px;
-      height:85px;
-      font-size: 4rem;
+      border-radius:100%;
+      width:55px;
+      height:55px;
+      padding: 5px;
+      font-size: 1.5rem;
+      text-align: center;
+      align-items: center;
+      border-bottom: 2px outset black;
+      border-top:none;
+      border-right:none;
+      border-left:none;
   }
 
-  .operators{
-      display:flex;
-      flex-direction: column;
-      justify-content: space-around;
-  }
+  .operatorButtons{
+    margin:5px 20px ;
 
-  .operator-button{
-      /* border-radius:50%;
-      width:50px;
-      height:50px; */
-      background-color:#33ccff;
+}
+  
 
-  }
+  
   .left {
-    display: flex;
+    padding:10px 10px 10px 0;
+    margin: 0 0 0 10px;
+
+    
+  }
+
+.numberButton:nth-child(10){
+    width: 120px;
+    border-radius: 30px;
+}
+  .numberButton{
+    display: flex-wrap;
+    margin:5px;
+    background-color:#004080;
+  } 
+  .operatorButton{
+    display:flex;
     flex-direction: column;
+    margin:10px 0;
+    background-color: #0088cc;
+}
+.specialButton{
+    margin:5px;
+    background-color: #0066cc;
+}
 
-  }
+ 
 
-  .number{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width:300px !important;
-  }
+    
+  
